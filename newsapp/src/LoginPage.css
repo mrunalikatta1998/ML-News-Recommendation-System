@@ -1,0 +1,54 @@
+/* LoginPage.css */
+.login-container {
+  flex: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 50%;
+}
+
+.login-page {
+  width: 50%; /* Updated to use full width if necessary */
+  max-width: 400px; /* Added a max-width to control the expansion on larger screens */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login-page h1 {
+  text-align: center;
+  color: #007bff;
+  font-size: 18px; /* Adjusted font size to fit text on one line, adjust as necessary */
+  margin-top: 0; /* Reducing space above the title */
+  padding: 0; /* Remove padding to allow more space for text */
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.login-page input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.login-page input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-page input[type="submit"]:hover {
+  background-color: #0056b3;
+}
